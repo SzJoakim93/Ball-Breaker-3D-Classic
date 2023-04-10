@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>  
+<Languages>
+	<ENG>
+    <Menu>
+      <element name="/Canvas/MainMenu/ButtonQuit/Text">Quit</element>
+      <element name="/Canvas/LevelMenu/Header/TotalScoresTxt">Total score:</element>
+      <dynamic-text name="Upgrade">Are you sure want to upgrade?</dynamic-text>
+      <dynamic-text name="NotEnought">Not enought ✯ to upgrade.</dynamic-text>
+    </Menu>
+    <InGame>
+      <element name="/Canvas/GameOver/Title">Try harder</element>
+      <element name="/Canvas/GameOver/RetryButton/Text">Retry</element>
+      <element name="/Canvas/GameOver/ExitButton/Text">Quit</element>
+      <element name="/Canvas/CompletedPanel/Title">Level completed</element>
+      <element name="/Canvas/CompletedPanel/NextButton/Text">Next level</element>
+      <element name="/Canvas/CompletedPanel/ExitButton/Text">Quit</element>
+      <element name="/Canvas/CompletedPanel/ScoreTitle">Score</element>
+      <element name="/Canvas/CompTitle/Text">Completed</element>
+      <element name="/Canvas/PausePanel/Title">Pause menu</element>
+      <element name="/Canvas/PausePanel/ResumeButton/Text">Resume</element>
+      <element name="/Canvas/PausePanel/RestartButton/Text">Restart</element>
+      <element name="/Canvas/PausePanel/ExitButton/Text">Quit</element>
+    </InGame>
+  </ENG>
+  <GER>
+    <Menu>
+      <element name="/Canvas/MainMenu/ButtonQuit/Text">Verlassen</element>
+      <element name="/Canvas/LevelMenu/Header/TotalScoresTxt">Punktzahl:</element>
+      <dynamic-text name="Upgrade">Möchte du verbessert?</dynamic-text>
+      <dynamic-text name="NotEnought">Kein genug ✯ für ein verbessern.</dynamic-text>
+    </Menu>
+    <InGame>
+      <element name="/Canvas/GameOver/Title">Bemühe dich mehr</element>
+      <element name="/Canvas/GameOver/RetryButton/Text">Wiederholen</element>
+      <element name="/Canvas/GameOver/ExitButton/Text">Verlassen</element>
+      <element name="/Canvas/CompletedPanel/Title">Eben vollendet</element>
+      <element name="/Canvas/CompletedPanel/NextButton/Text">Nächste Ebene</element>
+      <element name="/Canvas/CompletedPanel/ExitButton/Text">Verlassen</element>
+      <element name="/Canvas/CompletedPanel/ScoreTitle">Punktzahl</element>
+      <element name="/Canvas/CompTitle/Text">Abgeschlossen</element>
+      <element name="/Canvas/PausePanel/Title">Pausenmenü</element>
+      <element name="/Canvas/PausePanel/ResumeButton/Text">Fortsetzen</element>
+      <element name="/Canvas/PausePanel/RestartButton/Text">Wieder starten</element>
+      <element name="/Canvas/PausePanel/ExitButton/Text">Verlassen</element>
+    </InGame>
+  </GER>
+	<HUN>
+    <Menu>
+      <element name="/Canvas/MainMenu/ButtonQuit/Text">Kilépés</element>
+      <element name="/Canvas/LevelMenu/Header/TotalScoresTxt">Pontod:</element>
+      <dynamic-text name="Upgrade">Biztosan szerentéd fejleszteni?</dynamic-text>
+      <dynamic-text name="NotEnought">Nincs elég ✯ ehhez a fejlesztéshez.</dynamic-text>
+    </Menu>
+    <InGame>
+      <element name="/Canvas/GameOver/Title">Légy keményebb</element>
+      <element name="/Canvas/GameOver/RetryButton/Text">Újra</element>
+      <element name="/Canvas/GameOver/ExitButton/Text">Kilépés</element>
+      <element name="/Canvas/CompletedPanel/Title">Szint teljesítve</element>
+      <element name="/Canvas/CompletedPanel/NextButton/Text">Következő szint</element>
+      <element name="/Canvas/CompletedPanel/ExitButton/Text">Kilépés</element>
+      <element name="/Canvas/CompletedPanel/ScoreTitle">Pontod</element>
+      <element name="/Canvas/CompTitle/Text">Teljesítve</element>
+      <element name="/Canvas/PausePanel/Title">Szünet menü</element>
+      <element name="/Canvas/PausePanel/ResumeButton/Text">Folytatás</element>
+      <element name="/Canvas/PausePanel/RestartButton/Text">Újra</element>
+      <element name="/Canvas/PausePanel/ExitButton/Text">Kilépés</element>
+    </InGame>
+	</HUN>
+</Languages>

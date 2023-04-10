@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - wall_left
+  - wall_right
+  - wall_up
+  - wall_down
+  - padle
+  - bonus_ammo
+  - bonus_life
+  - bonus_expand
+  - bonus_shrink
+  - bonus_slow
+  - bonus_fast
+  - bonus_wall
+  - bonus_triple
+  - bonus_mega
+  - bonus_grip
+  - star
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
