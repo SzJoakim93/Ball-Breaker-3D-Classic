@@ -14,7 +14,7 @@ public class Level : MonoBehaviour
     [SerializeField] Transform Padle;
     [SerializeField] Transform Ball;
     [SerializeField] LevelAssets levelAssets;
-    [SerializeField] AdManager adManager;
+    [SerializeField] AdManagerInterstitial adManager;
 
     public float Size
     {
@@ -37,7 +37,6 @@ public class Level : MonoBehaviour
     void Start()
     {
         Load();
-        adManager.RequestInterstitial();
     }
     
 

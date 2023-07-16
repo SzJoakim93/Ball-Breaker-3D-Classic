@@ -8,9 +8,7 @@ public class AppInitialize : MonoBehaviour {
         {
             return;
         }
-
-        AdManager.Initialize();
-
+    
         Global.AppStarted = true;
     }
 }

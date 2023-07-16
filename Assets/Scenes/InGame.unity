@@ -10194,10 +10194,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1496388878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 613f0bcafe3f61c42a04b164119123c2, type: 3}
+  m_Script: {fileID: 11500000, guid: bb5993a5ab8c2a843a67ac68994bb01b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   OnAdClosedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1496388882}
+        m_TargetAssemblyTypeName: UIManagerInGame, Assembly-CSharp
+        m_MethodName: OnAdClosedEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnAdOpeningEvent:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1500016315

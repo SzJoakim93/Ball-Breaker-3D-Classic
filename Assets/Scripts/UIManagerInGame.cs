@@ -16,12 +16,20 @@ public class UIManagerInGame : MonoBehaviour
     [SerializeField] GameObject CompPanel;
     [SerializeField] GameObject PausePanel;
     [SerializeField] GameObject CompTitle;
-    [SerializeField] AdManager adManager;
+    [SerializeField] AdManagerInterstitial adManager;
     private bool pause;
     public bool Pause
     {
         get { return pause; }
     }
+
+    enum SelectedButton
+    {
+        QuitToMenu,
+        NextLevel,
+        RestartLevel
+    }
+    SelectedButton selectedButton;
 
     // Start is called before the first frame update
     void Start()
@@ -87,20 +95,48 @@ public class UIManagerInGame : MonoBehaviour
 
     public void Restart()
     {
-        adManager.ShowInterstitial();
+        selectedButton = SelectedButton.RestartLevel;
+        if (adManager.ShowAd())
+        {
+            return;
+        }
         SceneManager.LoadScene("InGame");
     }
 
     public void Quit()
     {
-        adManager.ShowInterstitial();
+        selectedButton = SelectedButton.QuitToMenu;
+        if (adManager.ShowAd())
+        {
+            return;
+        }
         SceneManager.LoadScene("Menu");
     }
 
     public void NextLevel()
     {
-        adManager.ShowInterstitial();
+        selectedButton = SelectedButton.NextLevel;
+        if (adManager.ShowAd())
+        {
+            return;
+        }
         Global.level++;
         SceneManager.LoadScene("InGame");
+    }
+
+    public void OnAdClosedEvent() {
+        switch (selectedButton)
+        {
+            case SelectedButton.RestartLevel:
+                SceneManager.LoadScene("InGame");
+                break;
+            case SelectedButton.QuitToMenu:
+                SceneManager.LoadScene("Menu");
+                break;
+            case SelectedButton.NextLevel:
+                Global.level++;
+                SceneManager.LoadScene("InGame");
+                break;
+        }
     }
 }
